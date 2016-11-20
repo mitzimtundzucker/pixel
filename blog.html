@@ -1,47 +1,54 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" href="style.css"/>
-		<title>Blog</title>
+		<link rel="stylesheet" href="styles/style.css"/>
+		<title>Blog</title>	
 	</head>
-
 	<body>
-		<h1>Mein erster eigens programmierter Blog</h1>
-			<div class="wrapper">
-				<aside>
-					<nav>
-						<h3>Hauptmenü</h3>
-						<ul>
-							<li>	
-								<a title="Zum Artikel" href="post2.html">Wie es dazu kam</a>
-							</li>
-							<li>
-								<a title="Zum Artikel" href="Post2.html">Frontend</a>
-							</li>
-						</ul>
-					</nav>
-				</aside>
-				<main>
-					<article>
-						<time>15. Oktober</time>
-						<h2>Wie es dazu kam</h2>
-						<p>
-							Franzi und Maria wollten ein neues CMS für Mercedes programmieren, weil das nie funktioniert hat. Sie hatten keine Ahnung, wie man programmiert, aber sie hatten eine Idee...
-						</p>
-						<a title="Hier geht's zum Post" href="Post1.html">Weiterlesen</a>
-					</article>
-						<br>
-					<article>
-					<time>1. November</time>
-						<h2>Frontend</h2>
-						<p>
-							Wir haben Frontend gelernt
-						</p>
-						<a title="Hier geht's zum Post" href="Post2.html">Weiterlesen</a>
-					</article>
-				</main>
-			</div>
+		<nav class="fixed-nav-bar">
+				<li class="active"><a href="blog.html">Home</a></li>
+				<li><a href="pages/news.html">News</a></li>
+				<li><a href="pages/contact.html">Contact</a></li>
+				<li><a href="pages/about.html">About</a></li>
+		</nav>	
+				<div class="wrapper">			
+					<aside>
+						<nav>
+							<h3>Hauptmenü</h3>
+							<ul>
+								<li>	
+									<a title="Zum Artikel" href="pages/post1.html">Wie es dazu kam</a>
+								</li>
+								<li>
+									<a title="Zum Artikel" href="pages/post2.html">Frontend</a>
+								</li>
+							</ul>
+						</nav>
+					</aside>
+					<main>
+						<article>
+							<time>15. Oktober</time>
+							<h2>Wie es dazu kam</h2>
+							<p>
+								Franzi und Maria wollten ein neues CMS für Mercedes programmieren, weil das nie funktioniert hat. Sie hatten keine Ahnung, wie man programmiert, aber sie hatten eine Idee...
+							</p>
+							<a title="Hier geht's zum Post" href="pages/post1.html">Weiterlesen</a>
+						</article>
+							<br>
+						<article>
+						<time>1. November</time>
+							<h2>Frontend</h2>
+							<p>
+								Wir haben Frontend gelernt
+							</p>
+							<a title="Hier geht's zum Post" href="pages/post2.html">Weiterlesen</a>
+						</article>
+					</main>
+				</div>
 	</body>
-
-
+		<footer>
+			<p>© MZUZ</p>
+			<p>Kontakt: <a href="mailto:someone@example.com">
+			someone</a>.</p>
+		</footer>
 </html>
