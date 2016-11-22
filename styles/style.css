@@ -12,6 +12,10 @@ body {
 	background-color: #b5e0ff;
 }
 
+header {
+	text-align: 
+}
+
 /***********************
 Links
 ***********************/
@@ -31,8 +35,21 @@ a:active {
 }
 
 a:hover { 
-text-decoration: none; 
-color: #0051B5;
+	text-decoration: none; 
+	color: #0051B5;
+}
+
+.nav-link:visited {
+	color: white;
+}
+
+.nav-link:active {
+	color: white;
+}
+
+.nav-link:hover { 
+	text-decoration: none; 
+	color: #0051B5;
 }
 
 /***********************
@@ -41,7 +58,7 @@ Kopf
 
 
 /***********************
-Navigation
+Navigationbar
 ***********************/
 
 .fixed-nav-bar {
@@ -57,12 +74,30 @@ Navigation
 
 .active {
     background-color: #D2F5EB;
+	padding: 23px;
 }
 
 li {	
 	padding: 35px;
 	text-align:center;
 	display: inline;
+}
+
+
+/***********************
+Sidebar
+***********************/
+
+ul li {
+	margin: 0;
+	list-style-type: none;
+	padding: 10px;	
+	text-align: left;
+}
+
+ul li a{
+	display: block;
+	
 }
 
 /***********************
@@ -86,7 +121,7 @@ p {
 
 aside {
 	background: white;
-	width: 25%;
+	width: 15%;
 	border-radius: 1%;
 	padding: 5px;
 	margin-top: 60px;
@@ -94,7 +129,7 @@ aside {
 
 main {
 	background: white;
-	width: 75%;
+	width: 85%;
 	margin-left: 25px;
 	border-radius: 1%;
 	padding: 20px;
@@ -107,6 +142,11 @@ article {
 
 time {
 	font-size: 12px;
+}
+
+.teaser {
+	width: 100%;
+	height: auto;
 }
 
 /***********************

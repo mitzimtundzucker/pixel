@@ -2,25 +2,32 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="styles/style.css"/>
+		<link rel="icon" type="image/png" href="images/skateboarding.png" size="16x16">
+		<link rel="icon" type="image/png" href="images/skateboarding.png" size="32x32">
 		<title>Blog</title>	
 	</head>
 	<body>
-		<nav class="fixed-nav-bar">
-				<li class="active"><a href="blog.html">Home</a></li>
-				<li><a href="pages/news.html">News</a></li>
-				<li><a href="pages/contact.html">Contact</a></li>
-				<li><a href="pages/about.html">About</a></li>
-		</nav>	
+			<header>
+				<nav class="fixed-nav-bar">
+						<li class="active"><a class="nav-link"href="blog.html">Home</a></li>
+						<li><a class="nav-link" href="pages/news.html">News</a></li>
+						<li><a class="nav-link" href="pages/contact.html">Contact</a></li>
+						<li><a class="nav-link" href="pages/about.html">About</a></li>
+				</nav>
+			</header>					
 				<div class="wrapper">			
 					<aside>
 						<nav>
-							<h3>Hauptmenü</h3>
+							<h3>Pixel Proggs</h3>
 							<ul>
 								<li>	
-									<a title="Zum Artikel" href="pages/post1.html">Wie es dazu kam</a>
+									<a title="Zum Artikel" href="./pages/post1.html">Wie es dazu kam</a>
 								</li>
 								<li>
-									<a title="Zum Artikel" href="pages/post2.html">Frontend</a>
+									<a title="Zum Artikel" href="./pages/post2.html">Frontend</a>
+								</li>
+								<li>
+									<a title="Zum Artikel" href="./pages/post3.html">Backend</a>
 								</li>
 							</ul>
 						</nav>
@@ -29,6 +36,7 @@
 						<article>
 							<time>15. Oktober</time>
 							<h2>Wie es dazu kam</h2>
+							<img class="teaser" src="images/Venice-Medium.jpg"> 
 							<p>
 								Franzi und Maria wollten ein neues CMS für Mercedes programmieren, weil das nie funktioniert hat. Sie hatten keine Ahnung, wie man programmiert, aber sie hatten eine Idee...
 							</p>
@@ -43,12 +51,22 @@
 							</p>
 							<a title="Hier geht's zum Post" href="pages/post2.html">Weiterlesen</a>
 						</article>
+							<br>
+						<article>
+						<time>15. November</time>
+							<h2>Backend</h2>
+							<p>
+								Wir haben Backend gelernt
+							</p>
+							<a title="Hier geht's zum Post" href="pages/post2.html">Weiterlesen</a>
+						</article>
 					</main>
 				</div>
-	</body>
 		<footer>
 			<p>© MZUZ</p>
 			<p>Kontakt: <a href="mailto:someone@example.com">
 			someone</a>.</p>
-		</footer>
+		</footer>		
+	</body>
+
 </html>
